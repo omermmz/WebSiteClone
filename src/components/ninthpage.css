@@ -1,0 +1,160 @@
+.ninthpagediv{
+    width: 100%;
+    height: 2800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.baslikninediv{
+    position: relative;
+  
+}
+
+.errormessage{
+    position: relative;
+    top: 450px;
+    border-color: #ffb900;
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 2px solid #ffb900;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 33px;
+    color: #4c4845;
+    background-color: #fff;
+    font-family: 'FFDINWebLight', sans-serif;
+    font-weight:normal;
+    font-style: normal;
+    text-align: left;
+    visibility: hidden;
+
+}
+
+
+.errormessage.visible{
+    visibility: visible;
+}
+
+.basliknine{
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    height: 500px;
+    color: black;
+    
+}
+
+.basliknine:before,
+
+.basliknine:after {
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50px;
+    
+}
+
+.basliknine:before {
+    right: 0.5em;
+    margin-left: -50%;
+    }
+.basliknine:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.ninebaslik{
+    color: #c9aa5d;
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+}
+
+
+.nineimagediv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top:100px;
+}
+
+.ninthimage{
+    height: 400px;
+    width: 600px;
+
+}
+
+.ninebas1{
+    text-align: left;
+    font-size:x-large;
+}
+
+.ninep1{
+    text-align: left;
+}
+
+.ninep2{
+    position: relative;
+    bottom: 15px;
+    text-align: left;
+}
+
+.ninep2:hover{
+    cursor: pointer;
+    color: #c9aa5d;
+    text-decoration: underline;
+}
+
+.nineheader{
+    position: relative;
+    text-align: left;
+    font-size: 25px;
+    top: 150px;
+    left: 50px;
+    color: #c9aa5d;
+}
+
+
+.nineheader2{
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    left: 50px;
+    top:100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    
+}
+
+.ninecizgi{
+    position: relative;
+    text-align: left;
+    left: 50px;
+    top: 100px;
+}
+
+
+.ninecizgi2{
+    position: relative;
+    text-align: left;
+    left: 50px;
+    top: 350px;
+}
+
+.ninebuttondiv{
+    position:relative;
+    width: 50px;
+    height: 20px;
+    left: 50px;
+    top: 400px;
+}

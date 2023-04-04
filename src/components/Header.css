@@ -1,0 +1,74 @@
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-right: 100px;
+    padding-left: 150px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    left:0;
+    top:0;
+    transition: top .5s;
+    transition-timing-function: ease-in;
+    
+
+    
+    
+}
+
+.callnumberdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.callnumberdiv:hover{
+    color: gray;
+}
+
+.callicon{
+    background: url(//www.formationstone.com/wp-content/uploads/formation-contact-call-icon.png); 
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 10px;
+    left: -10px;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+}
+
+.header.gizle{
+    top: -89px;
+}
+
+
+
+.butondiv{
+    
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 100px;
+    
+
+}
+
+.logo{
+   display: flex;
+   align-items: flex-start;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+}
+

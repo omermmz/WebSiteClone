@@ -1,0 +1,270 @@
+.container{
+
+  cursor:pointer;
+ 
+  
+}
+
+.border{
+    border: 2px black solid;
+}
+.hover:hover{
+    color:#c9aa5d;
+}
+
+.colorcallnumber{
+    color: #c9aa5d;
+    font-family: 'FFDINWebBold', sans-serif; 
+    letter-spacing: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.colorcallnumber:hover{
+    color: palegoldenrod;
+}
+.hover2:hover{
+    color: gray;
+}
+
+.padding{
+    padding:20px;
+}
+
+.width{
+    width: 100px;
+}
+
+.height{
+    height: 100px;
+}
+
+.buttonScroll{
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: 650px;
+    width: 10%;
+}
+
+.thirdpage{
+    /* border: 1px black solid; */
+    height: 330px;
+    width: 330px;
+    background-image: url('/Users/omermamaz/react-projects/deneme1/public/image/thumbs_AJ-BROWN.jpeg');
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+    text-align: center;
+   color: white;
+   font-size: 20px;
+   font-family: 'FFDINWebLight', sans-serif;
+   font-weight: 800;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.thirdpage3{
+    /* border: 1px black solid; */
+    height: 330px;
+    width: 330px;
+    background-image: url('/Users/omermamaz/react-projects/deneme1/public/image/thumbs_GREY-ORIBICO.jpeg');
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+    text-align: center;
+   color: white;
+   font-size: 20px;
+   font-family: 'FFDINWebLight', sans-serif;
+   font-weight: 800;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.thirdpage4{
+    /* border: 1px black solid; */
+    height: 330px;
+    width: 330px;
+    background-image: url('/Users/omermamaz/react-projects/deneme1/public/image/thumbs_QUARTZITE-CIELO-LEATHER.jpeg');
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+    text-align: center;
+   color: white;
+   font-size: 20px;
+   font-family: 'FFDINWebLight', sans-serif;
+   font-weight: 800;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.thirdpage5{
+    /* border: 1px black solid; */
+    height: 330px;
+    width: 330px;
+    background-image: url('/Users/omermamaz/react-projects/deneme1/public/image/thumbs_Coastal-Grey.jpeg');
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+    text-align: center;
+   color: white;
+   font-size: 20px;
+   font-family: 'FFDINWebLight', sans-serif;
+   font-weight: 800;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.thirdpage6{
+    /* border: 1px black solid; */
+    height: 330px;
+    width: 330px;
+    background-image: url('/Users/omermamaz/react-projects/deneme1/public/image/thumbs_SILVER-ONYX.jpeg');
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+    text-align: center;
+   color: white;
+   font-size: 20px;
+   font-family: 'FFDINWebLight', sans-serif;
+   font-weight: 800;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.thirdpage7{
+    /* border: 1px black solid; */
+    height: 330px;
+    width: 330px;
+    background-image: url('/Users/omermamaz/react-projects/deneme1/public/image/thumbs_Iron-Grey-new.jpeg');
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+    text-align: center;
+   color: white;
+   font-size: 20px;
+   font-family: 'FFDINWebLight', sans-serif;
+   font-weight: 800;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.thirdpage8{
+    /* border: 1px black solid; */
+    height: 330px;
+    width: 330px;
+    background-image: url('/Users/omermamaz/react-projects/deneme1/public/image/thumbs_Bistro-Green.jpeg');
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+    text-align: center;
+   color: white;
+   font-size: 20px;
+   font-family: 'FFDINWebLight', sans-serif;
+   font-weight: 800;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.thirdpage9{
+    /* border: 1px black solid; */
+    height: 330px;
+    width: 330px;
+    background-image: url('/Users/omermamaz/react-projects/deneme1/public/image/thumbs_Ken-Mason-Tile.jpeg');
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+    text-align: center;
+   color: white;
+   font-size: 20px;
+   font-family: 'FFDINWebLight', sans-serif;
+   font-weight: 800;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.thirdpage:hover{
+    background-image: none;
+    background-color:#c9aa5d;
+    content-visibility: visible;
+    
+}
+
+.thirdpage3:hover{
+    background-image: none;
+    background-color:#c9aa5d;
+    content-visibility: visible;
+    
+}
+.thirdpage4:hover{
+    background-image: none;
+    background-color:#c9aa5d;
+    content-visibility: visible;
+    
+}
+.thirdpage5:hover{
+    background-image: none;
+    background-color:#c9aa5d;
+    content-visibility: visible;
+    
+}
+.thirdpage6:hover{
+    background-image: none;
+    background-color:#c9aa5d;
+    content-visibility: visible;
+    
+}
+.thirdpage7:hover{
+    background-image: none;
+    background-color:#c9aa5d;
+    content-visibility: visible;
+    
+}
+.thirdpage8:hover{
+    background-image: none;
+    background-color:#c9aa5d;
+    content-visibility: visible;
+    
+}
+.thirdpage9:hover{
+    background-image: none;
+    background-color:#c9aa5d;
+    content-visibility: visible;
+    
+}
+
+
+
+.thirdpage2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px #c9aa5d solid;
+    height: 20px;
+    width: 200px;
+    background-color: #c9aa5d;
+    padding: 8%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.ninthpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px #c9aa5d solid;
+    height: 50px;
+    width: 150px;
+    background-color: #c9aa5d;
+    padding: 8%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.thirdpage2:hover{
+    background-color: white;
+    color: #c9aa5d;
+
+}
+
+.ninthpage:hover{
+    background-color: white;
+    color: #c9aa5d;
+
+}
+

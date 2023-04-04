@@ -1,0 +1,88 @@
+.eighthpagediv{
+    width: 100%;
+    height: 900px;
+    background-color: #c9aa5d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.eightslideshow{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1400px;
+    position: relative;
+   
+    
+}
+
+
+.eightslideshowSlider{
+    white-space: nowrap;
+    transition: ease 1000ms; 
+}
+
+.eightslide{
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+}
+
+
+.ebaslik{
+    color:white;
+    font-size: 45px;
+    position: relative;
+   
+    top:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.eparag{
+    color:white;
+    font-size: 30px;
+    position: relative;
+    top:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ebaslik2{
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top:40px;
+}
+
+.noktadiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+}
+
+.noktalar{
+    position: relative;
+    bottom: 200px;
+    font-size: 150px;
+    color:antiquewhite;
+}
+
+.noktalar:hover{
+    cursor: pointer;
+    color:white;
+}
+
+.noktalar.active0{
+    color: white;
+}
+
+.noktalar.active1{
+    color: white;
+}
+
+.noktalar.active2{
+    color: white;
+}

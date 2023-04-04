@@ -1,0 +1,104 @@
+.sixthpagediv{
+    width: 100%;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px;
+    padding-right: 200px;
+  
+    box-sizing: border-box;
+}
+
+.sliderdiv2{
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+   
+
+}
+
+.sliderdiv{
+  
+    display: inline-block;
+    height: 600px;
+    width: 100%;
+
+
+    
+}
+
+.slideshowSlider2 {
+    white-space: nowrap;
+    transition: ease 1000ms; 
+  }
+
+.slideslideritem {
+    margin: 0 auto;
+    overflow: hidden;
+   
+    position: relative;
+    left: 100px;
+    
+
+  }
+
+.sixthpbaslik{
+    color: #c9aa5d;
+    font-size: 50px;
+    position: relative;
+    top:50px;
+}
+
+.sixthmid{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.ok{
+    position: relative;
+    right: 50px;
+    font-size: 120px;
+    color: grey;
+    cursor: pointer;
+}
+
+.sixthimage{
+    position: relative;
+    top: 180px;
+    height: 400px;
+    width: 400px;
+ 
+}
+
+.sixthbaslik2{
+    position: relative;
+    font-weight: bolder;
+    font-size: 19px;
+    left: 20px;
+    top: 200px;
+}
+
+.sixthpara{
+    position: relative;
+    top: 300px;
+    right: 120px;
+    color:black;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ok2{
+    position: relative;
+    left: 200px;
+    font-size: 120px;
+    color: grey;
+    cursor: pointer;
+
+}

@@ -1,0 +1,91 @@
+.seventhpagediv{
+    width: 100%;
+    height: 1200px;
+    background-color:gray ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+
+    box-sizing: border-box;
+}
+
+.seventhfirst{
+    position: relative;
+}
+
+.seventhimagediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+
+
+.seventhimageindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top:100px;
+    left: 150px;
+}
+
+.seventhimageindiv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top:100px;
+    left: 250px;
+}
+
+.seventhimageindiv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top:100px;
+    left: 440px;
+}
+
+.imgradiv{
+   display: inline-block;
+   position: relative;
+   width: 250px;
+   height: 250px;
+   overflow: hidden;
+   border-radius: 50%;
+   left:30px;
+}
+
+.seventhimage{
+    width: auto;
+    height: 100%;
+}
+
+.seventh1{
+    position: relative;
+    left: 30px;
+}
+
+.seventhp1{
+    position: relative;
+    left: 40px;
+}
+
+.seventh2{
+    position: relative;
+    right: 40px;
+}
+
+.seventhp2{
+    position: relative;
+    right: 30px;
+}
+
+.seventhbas{
+    position: relative;
+    top: 200px;
+}

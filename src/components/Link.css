@@ -1,0 +1,36 @@
+.link{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    
+
+}
+.link:hover{
+    
+    color:gray
+}
+
+.boyut{
+    position: relative;
+    font-size: 20px;
+    top: 650px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.color{
+    color:#c9aa5d;
+}
+
+.color2{
+    color:black;
+    font-size: 25px;
+}
+
+.color2:hover{
+    color:darkgray;
+}
+
+.color:hover{
+    color:palegoldenrod;
+}

@@ -1,0 +1,20 @@
+.div{
+    position: relative;
+    width: 100%; 
+    height: 100%;
+
+}
+
+.image2{
+    height: 100%;
+    width: 100%;
+}
+
+.yaziOpen123{
+    position: absolute;
+    bottom: 400px;
+    left: 300px;
+    color: white;
+    font-size: 40px; 
+}
+
